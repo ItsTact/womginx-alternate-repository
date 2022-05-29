@@ -7,5 +7,6 @@ services:
       - PORT=80
       - SAFE_BROWSING=1
     ports:
-      - 80:80
+      - '80:8080'
+      - '443:8443'
     restart: unless-stopped
