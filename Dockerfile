@@ -35,7 +35,4 @@ ENV PORT=80
 COPY --from=builder /opt/womginx /opt/womginx
 RUN cp /opt/womginx/nginx.conf /etc/nginx/nginx.conf
 
-# make sure nginx.conf works (mainly used for development)
-RUN nginx -t
-
 CMD /opt/womginx/docker-entrypoint.sh
