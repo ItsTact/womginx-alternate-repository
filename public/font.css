@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'tw_cen_mt_stdregular';
+    src: url('twcenmtstd-webfont.woff2') format('woff2'),
+         url('twcenmtstd-webfont.woff') format('woff');
+}
